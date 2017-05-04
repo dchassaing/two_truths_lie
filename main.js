@@ -29,7 +29,8 @@ $(document).ready(function(){
   }
 
   function reset () {
-
+  // if option has been clicked on
+  //undo border 
   }
 
 });
