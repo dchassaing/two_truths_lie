@@ -2,44 +2,39 @@
 /* font: Raleway - already linked in html, so can use here */
 
 html {
-    font-size: 62.5%; /* 1rem = 10px - use rem */
+    font-size: 85%; /* 1rem = 10px - use rem */
 }
 
 body {
   background-color: #191D32;
 }
 
-.dialogue-box{
+.dialogue-box {
   background: #ffffff;
   border-radius: 5px;
   padding-bottom: 15px;
   display: flex;
   flex-flow: column wrap;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+.prompt p{
+  font-size: 22.5px;
+}
 .option-1, .option-2, .option-3 {
   display: flex;
   border: #E8D284 solid 1px;
   border-radius: 5px;
   margin: 15px;
   justify-content: center;
+  text-align: center;
+  word-wrap: break-word;
 }
 
-.option-1:hover, .option-2:hover, .option-3:hover{
+.option-1:hover, .option-2:hover, .option-3:hover {
   background-color: #E8D284;
   color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-#E8D284 yellow
-#56A589 green
-#DB6F6F red
-#62B6CB light blue
